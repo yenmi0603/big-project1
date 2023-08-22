@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://code.jquery.com/jquery-3.7.0.min.js">
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div class="flex">
+                <img class="img-logo" src="img/logo.png" alt="OU" />
+                <h1 class="text-header">Hệ thống rèn luyện online</h1>
+                <div></div>
+            </div>
+        </div>
+        <!-- end header -->
+        <nav class="main-menu">
+            <div class="flex " >
+                <ul class="navbar1">
+                    <li class="navbar-item "><a></a><i class="fa-regular fa-square-caret-down"></i>MENU</a>
+                        <ul class="sub-menu">
+                            <li><a href="index6.html">Trang chủ</a></li>
+                            <li><a href="index1.html">Đánh giá rèn luyện</a></li>
+                            <!-- <li><a href="">Xếp loại</a></li> -->
+                            <li><a href="index3.html">Hồ sơ cá nhân</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul  class="navbar2 flex">
+                    <li class="navbar-item"><a class="navbar-item-link"><i class="fa-regular fa-bell"></i>Thông báo</a>
+                        <div class="notify">
+                            <div class="notify__h4">
+                                <h4>Thông báo mới nhận</h4>
+                            </div>
+                            <ul>
+                                <li class="notify-item notify-item--viewed">
+                                    <a href="index13.html" class="notify-link">
+                                        <img src="img/notify1.jpg" alt="Hình ảnh" class="notify-img">
+                                         <div class="notify-ifno">
+                                             <span class="notify-name">HOẠT ĐỘNG THẮP NẾN TRI ÂN ANH HÙNG, LIỆT SỸ</span> 
+                                              <span class="notify-decrition">Nhằm 76 năm Ngày Thương binh - Liệt sỹ (27/07/1947 - 27/07/2023), các đội hình của chiến dịch Mùa Hè Xanh 2023 đã tổ chức thắp nến tri ân...</span>
+                                         </div>
+                                     </a>
+                                </li>
+                                <li class="notify-item notify-item--viewed">
+                                    <a href="index8.html" class="notify-link">
+                                        <img src="img/notify2.jpg" alt="Hình ảnh" class="notify-img">
+                                         <div class="notify-ifno">
+                                             <span class="notify-name">HỘI THẢO VƯỢT QUA RÀO CẢN TÂM LÝ TROGN QUÁ TRÌNH TÌM VIỆC</span> 
+                                              <span class="notify-decrition">Xin chào các bạn, Đội hình Văn hóa - Kỹ năng đã quay trở lại rồi đây! Tuần này, Đội hình chúng mình sẽ đưa các tham quan vùng đất Tây Nguyên ...</span>
+                                         </div>
+                                     </a>
+                                </li><li class="notify-item notify-item--viewed">
+                                    <a href="index9.html" class="notify-link ">
+                                        <img src="img/notify3.jpg" alt="Hình ảnh" class="notify-img">
+                                         <div class="notify-ifno">
+                                             <span class="notify-name">NGÀY HỘI VIỆC LÀM – OU JOB FAIR 2023</span> 
+                                              <span class="notify-decrition">
+                                                Còn suy nghĩ đắn đo làm chi nữa các Boss hãy nhanh cái tay lẹ cái chân đăng kí dự thi để rinh thật nhiều giải thưởng thật đặc biệt từ Stop nhaaa...
+                                              </span>
+                                         </div>
+                                     </a>
+                                </li><li class="notify-item notify-item--viewed">
+                                    <a href="index10.html" class="notify-link">
+                                        <img src="img/notify4.jpg" alt="Hình ảnh" class="notify-img">
+                                         <div class="notify-ifno">
+                                             <span class="notify-name">TÁI CHẾ RÁC NHỰA, THAY ĐỔI VONGF ĐỜI CÙNG THIẾU NHI</span> 
+                                              <span class="notify-decrition">
+                                                Nhằm hưởng ứng hoạt động cao điểm “Chủ nhật xanh”, vào sáng ngày 23/07/2023 trên địa bàn Thành phố Hồ Chí Minh, chiến sĩ tình nguyện ...
+                                              </span>
+                                         </div>
+                                     </a>
+                                </li><li class="notify-item notify-item--viewed">
+                                    <a href="index11.html" class="notify-link">
+                                        <img src="img/notify5.jpg" alt="Hình ảnh" class="notify-img">
+                                         <div class="notify-ifno">
+                                             <span class="notify-name">CÁC HOẠT ĐỘNG TRONG CHIẾN DỊCH MÙA HÈ XANH 2023</span> 
+                                              <span class="notify-decrition">
+                                                Nhằm hưởng ứng hoạt động cao điểm “Chiến sĩ tình nguyện uống nước nhớ nguồn, tham gia đảm bảo an ninh xã hội” ngày 23/07/2023...
+                                              </span>
+                                         </div>
+                                     </a>
+                                </li>
+                            </ul>
+                            <footer class="notify-footer">
+                                <a href=" " class="notify-footer-btn">Xem tất cả</a>
+                            </footer>
+                        </div>
+                    </li>
+                    <li class="navbar-item" ><a href="index.html"><i class="fa-regular fa-user"></i>Đăng xuất</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="container">
+            <div >
+                <h2 class="header-h2 ">PHIẾU TỰ ĐÁNH GIÁ KẾT QUẢ RÈN LUYỆN CỦA SINH VIÊN</h2>
+            </div>
+            <div class="container1 " >
+                <div class="container1-left">
+                   <table>
+                    <tr>
+                        <td>Họ tên:</td>
+                    </tr>
+                    <tr>
+                        <td><input class="hoten" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Mã sinh viên:</td>
+                    </tr>
+                    <tr>
+                        <td><input class="mssv" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><button class="filling">Tự cập nhật</button></td>
+                    </tr>
+                    
+                   </table>
+                </div>
+                <div class="container1-right">
+                <table class="table-item ">
+                 <tr>
+                     <td>Email:</td>
+                 </tr>
+                 <tr>
+                     <td><input class="report" type="text"></td>
+                 </tr>
+                 <tr>
+                    <td>Khoa:</td>
+                </tr>
+                <tr>
+                    <td><input class="khoa" type="text"></td>
+                </tr>
+                </table>
+                </div>
+                
+            </div>           
+            <div id="container2">
+                <table class="main-table" onchange="showValue()" style="width:100%">
+                
+                        <tr class="main-text">
+                           <th>STT</th>
+                           <th >Nội dung và tiêu chí đánh giá</th>
+                           <th >Mức điểm tối đa</th>
+                           <th >Đánh giá</th>
+                         </tr>
+                        <tr class="main weight">
+                            <td >1</td>
+                            <td >
+                                Ý thức học tập (từ 0 đến 20 điểm)
+                            </td>
+                            <td ></td>
+                            <td >
+                                <input id="diemtong1" type="text" readonly="">
+                            </td>
+                        </tr>
+                        <tr class="main">
+                            <td >1.1</td>
+                            <td >
+                                Tinh thần, thái độ trong học tập (chuẩn bị bài, xây dựng bài, chuyên cần, chấp hành
+                                các
+                                quy
+                                định trong giờ học…).
+                            </td>
+                            <td >15</td>
+                            <td >
+                                <input type="radio" class="r1" name="elements" value="15">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >1.2</td>
+                            <td >
+                                Thực hiện tốt mục 1 và tích cực tham gia các hoạt động học thuật, ngoại khóa, nghiên
+                                cứu
+                                khoa học.
+                            </td>
+                            <td>17</td>
+                            <td >
+                                <input type="radio" class="r1" name="elements" value="17">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >1.3</td>
+                            <td >
+                                Thực hiện tốt mục 2 và có thực hiện các đề tài nghiên cứu khoa học, hoặc có các bài
+                                báo
+                                về
+                                chuyên ngành đang học đăng trên tạp chí/báo trong và ngoài trường, hoặc có tham gia
+                                dự
+                                thi
+                                HSSV giỏi từ cấp trường trở lên.
+                            </td>
+                            <td>20</td>
+                            <td >
+                                <input type="radio" class="r1" name="elements" value="20">
+                            </td>
+                        </tr>
+                    <form></form>
+                        <tr class="main weight">
+                            <td>2</td>
+                            <td >
+                                Ý thức và kết quả chấp hành nội quy, quy chế trong nhà trường (từ 0 đến 25 điểm)
+                            </td>
+                            <td></td>
+                            <td >
+                                <input id="diemtong2" type="text" readonly="">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >2.1</td>
+                            <td >
+                                Vi phạm các nội quy, quy chế và các quy định khác được áp dụng trong trường bị xử lý
+                                kỷ luật mức cảnh cáo trở lên.
+                            </td>
+                            <td >0</td>
+                            <td>
+                                <input type="radio" class="r2" name="element" value="0">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td>2.2</td>
+                            <td >
+                                Vi phạm bị xử lý kỷ luật mức khiển trách.
+                            </td>
+                            <td >10</td>
+                            <td >
+                                <input type="radio" class="r2" name="element" value="10">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >2.3</td>
+                            <td>
+                                Vi phạm nhưng chỉ bị phê bình, rút kinh nghiệm cấp Khoa và tương đương.
+                            </td>
+                            <td >15</td>
+                            <td >
+                                <input type="radio" class="r2" name="element" value="15">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >2.4</td>
+                            <td >
+                                Vi phạm nhưng chỉ bị phê bình, rút kinh nghiệm ở tập thể lớp/chi đoàn.
+                            </td>
+                            <td >20</td>
+                            <td >
+                                <input type="radio" class="r2" name="element" value="20">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td>2.5</td>
+                            <td >
+                                Không vi phạm.
+                            </td>
+                            <td >25</td>
+                            <td >
+                                <input type="radio" class="r2" name="element" value="25">
+                            </td>
+                        </tr>
+    
+                    
+    
+                    <form></form>
+    
+                        <tr class="main weight">
+                            <td >3</td>
+                            <td >
+                                Ý thức và kết quả tham gia các hoạt động chính trị – xã hội, văn hoá, văn nghệ, thể
+                                thao, phòng chống các tệ nạn xã hội (từ 0 đến 20 điểm):
+                            </td>
+                            <td></td>
+                            <td >
+                                <input style="font-weight: bold;" id="diemtong3" type="text" readonly="">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >3.1</td>
+                            <td >
+                                Không tham dự (vắng mặt từ 50% trở lên) các hoạt động rèn luyện về chính trị – xã
+                                hội, văn hoá, văn nghệ, thể thao và phòng chống các tệ nạn xã hội do lớp, khoa, nhà
+                                trường phát động, tổ chức.
+                            </td>
+                            <td >0</td>
+                            <td>
+                                <input type="radio" class="r3" name="elementa" value="0">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >3.2</td>
+                            <td>
+                                Có tham dự nhưng không đầy đủ (vắng mặt dưới 50%).
+                            </td>
+                            <td >10</td>
+                            <td >
+                                <input type="radio" class="r3" name="elementa" value="10">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >3.3</td>
+                            <td >
+                                Tham dự đầy đủ.
+                            </td>
+                            <td >15</td>
+                            <td >
+                                <input type="radio" class="r3" name="elementa" value="15">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >3.4</td>
+                            <td >
+                                Tích cực tham gia tổ chức, thực hiện các hoạt động cấp Khoa trở lên.
+                            </td>
+                            <td >17</td>
+                            <td >
+                                <input type="radio" class="r3" name="elementa" value="17">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >3.5</td>
+                            <td >
+                                Tích cực tham gia tổ chức, thực hiện các hoạt động cấp trường trở lên và tích cực
+                                tham gia hoạt động công ích, tình nguyện, công tác xã hội.
+                            </td>
+                            <td >20</td>
+                            <td >
+                                <input type="radio" class="r3" name="elementa" value="20">
+                            </td>
+                        </tr>
+    
+                    
+    
+                    <form></form>
+    
+                        <tr class="main weight">
+                            <td  >4</td>
+                            <td >
+                                Phẩm chất công dân và quan hệ với cộng đồng (từ 0 đến 25 điểm)
+                            </td>
+                            <td ></td>
+                            <td >
+                                <input style="font-weight: bold;" id="diemtong4" type="text" readonly="">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >4.1</td>
+                            <td >
+                                Vi phạm các chủ trương của Đảng, chính sách, pháp luật của Nhà nước bị công an,
+                                chính quyền các cấp, nhà trường lập biên bản xử lý .
+                            </td>
+                            <td >0</td>
+                            <td >
+                                <input type="radio" class="r4" name="elementb" value="0">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >4.2</td>
+                            <td>
+                                Vi phạm các chủ trương của Đảng, chính sách, pháp luật của Nhà nước; gây mất đoàn
+                                kết trong tập thể lớp, Khoa, Trường nhưng chưa đến mức bị lập biên bản xử lý hoặc bị
+                                xử lý kỷ luật.
+                            </td>
+                            <td >10</td>
+                            <td >
+                                <input type="radio" class="r4" name="elementb" value="10">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >4.3</td>
+                            <td >
+                                Chấp hành các chủ trương của Đảng, chính sách, pháp luật của Nhà nước, có tinh thần
+                                giúp đỡ bạn bè, cưu mang người gặp khó khăn.
+                            </td>
+                            <td >20</td>
+                            <td >
+                                <input type="radio" class="r4" name="elementb" value="20">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >4.4</td>
+                            <td >
+                                Thực hiện tốt mục 3 và được biểu dương, khen thưởng (cấp trường trở lên) trong công
+                                tác xã hội và giữ gìn an ninh chính trị, trật tự an toàn xã hội; mối quan hệ cộng
+                                đồng, tinh thần giúp đỡ bạn bè, cưu mang người gặp khó khăn.
+                            </td>
+                            <td >25</td>
+                            <td >
+                                <input type="radio" class="r4" name="element" value="25">
+                            </td>
+                        </tr>
+    
+                    
+    
+                    <form></form>
+    
+                        <tr class="main weight">
+                            <td >5</td>
+                            <td >
+                                Ý thức và kết quả tham gia công tác phụ trách lớp, các đoàn thể, tổ chức trong nhà
+                                trường hoặc đạt được thành tích đặc biệt trong học tập, rèn luyện của SV (từ 0 đến
+                                10 điểm):
+                            </td>
+                            <td ></td>
+                            <td >
+                                <input style="font-weight: bold;" id="diemtong5" type="text" readonly="">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td ></td>
+                            <td class="weight " >
+                                * Đối với những SV được phân công quản lý lớp, đoàn thể, các tổ chức…
+                            </td>
+                            <td ></td>
+                            <td ></td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >5.1</td>
+                            <td >
+                                - Hoàn thành nhiệm vụ được phân công.
+                            </td>
+                            <td >8</td>
+                            <td >
+                                <input type="radio" class="r5" name="elementc" value="8">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >5.2</td>
+                            <td >
+                                - Hoàn thành tốt nhiệm vụ được phân công.
+                            </td>
+                            <td >10</td>
+                            <td >
+                                <input type="radio" class="r5" name="elementc" value="10">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td ></td>
+                            <td class="weight " >
+                                * Đối với những SV không được phân công quản lý lớp, đoàn thể, các tổ chức…
+                            </td>
+                            <td ></td>
+                            <td >
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >5.3</td>
+                            <td >
+                                - Đạt giải thưởng, được khen thưởng trong lĩnh vực học tập, rèn luyện, hoạt động
+                                văn-thể-mỹ, xã hội…cấp trường.
+                            </td>
+                            <td >8</td>
+                            <td >
+                                <input type="radio" class="r5" name="elementc" value="8">
+                            </td>
+                        </tr>
+    
+                        <tr class="main">
+                            <td >5.4</td>
+                            <td >
+                                - Đạt giải thưởng, được khen thưởng trong lĩnh vực học tập, rèn luyện, hoạt động
+                                văn-thể-mỹ, xã hội…do các đơn vị ngoài trường tổ chức.
+                            </td>
+                            <td >10</td>
+                            <td >
+                                <input type="radio" class="r5" name="elementc" value="10">
+                            </td>
+                        </tr>
+    
+                    
+    
+                    <tr class="main">
+                        <td ></td>
+                        <td class="weight " >
+                            Tổng cộng
+                        </td>
+                        <td class="weight "  >100</td>
+                        <td>
+                            <input id="tongcong" type="text" readonly="" name="tongDiem" required="">
+                        </td>
+                    </tr>
+                    <tr class="main">
+                        <td></td>
+                        <td class="weight "> Xếp loại</td>
+                        <td>
+                            <input id="tongcong" type="text" readonly="" name="tongDiem" required="">
+                        </td>
+                        <td class="xeploai"></td>
+                    </tr>
+    
+                </table>
+
+            </div> 
+         </div>    
+         <div class="backtop">
+            <i class="fa-solid fa-chevron-up"></i>
+        </div>                          
+        <!-- end wr-content -->
+        <div id="footer">
+            <div class="footer-left">
+                <div class="footer-item1">Cơ sở</div>
+                <ul>
+                    <li class="item-coso"><i class="fa-solid fa-location-dot"></i>Cơ sở 1: 97 Võ Văn Tần P6 Q3 Tp.HCM.</li>
+                    <li class="item-coso"><i class="fa-solid fa-location-dot"></i>Cơ sở 2: 35-37 Hồ Hảo Hớn, Phường Cô Giang, Quận 1, Tp.</li>
+                    <li class="item-coso"><i class="fa-solid fa-location-dot"></i>Cơ sở 3: 371 Nguyễn Kiệm, Phường 3, Quận Gò Vấp, Tp.</li>
+                    <li class="item-coso"><i class="fa-solid fa-location-dot"></i>Cơ sở 4: 02 Mai Thị Lựu, Phường Đa Kao, Quận 1, Tp.</li>
+                    <li class="item-coso"><i class="fa-solid fa-location-dot"></i>Cơ sở 5: 68 Lê Thị Trung, Tp.Thủ Dầu Một, Tỉnh Bình Dương.</li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <div class="footer-contact">Liên hệ</div>
+                <ul>
+                    <li class="item-lienhe">Điện thoại: 028-38364748.</li>
+                    <li class="item-lienhe">Fax: 028-39207639 hoặc 028-39207640.</li>
+                    <li class="item-lienhe">E-mail: ou@ou.edu.vn.</li>
+                    <li class="item-lienhe"></li>
+                    <li class="item-lienhe"></li>
+                </ul>
+            </div>
+
+        </div>
+     </div>
+
+
+        <!-- end footer -->
+    </div>
+    <script src="js/drl.js"></script>
+    <script src="js/java.js"> </script>
+    <script src="js/javascript5.js"></script>
+
+</body>
+</html>
